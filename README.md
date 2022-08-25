@@ -12,7 +12,7 @@ There are 4 user roles:
     
     
 ## Install
-# Prerequisites
+### Prerequisites
 1. You need Python version 3.8 or above instaled on your computer.
 2. You need a database to be created and set. Create Postresql database and config it. If you are on windows, please follow this [detailed tutorial](https://www.guru99.com/download-install-postgresql.html)
 3. If you are on Windows, you will need to set "FLASK_APP" environment variable for the migrations:
@@ -25,7 +25,7 @@ There are 4 user roles:
     ``python3 -m pip install -r requirements.txt``
 6. Two services are integrated, 
     
-## Run the app
+### Run the app
 
     ``python main.py``
 
@@ -145,4 +145,5 @@ The REST API to the Ticket System app is described below.
 
     204
   
-## Full list of endpoints is not available yet. Please refer to [routes](https://github.com/GMGeor/TicketSystemFlaskJune2022/blob/490ab28da409b5fc106a17b6bb6fe2a8ba116f6d/resources/routes.py#L27) in order to see all available endpoints.
+## Full list of endpoints is not available yet. 
+Please refer to [routes](https://github.com/GMGeor/TicketSystemFlaskJune2022/blob/490ab28da409b5fc106a17b6bb6fe2a8ba116f6d/resources/routes.py#L27) in order to see all available endpoints.
