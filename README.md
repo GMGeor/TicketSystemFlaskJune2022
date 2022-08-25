@@ -18,7 +18,7 @@ A demo Flask REST API for my exam.
 
 ## Run the tests
 
-1. Tests are build with pytest. You can set your favorite IDE to work with pytest, for pycharm please follow  this [detailed tutorial]([https://www.guru99.com/download-install-postgresql.html](https://www.jetbrains.com/help/pycharm/pytest.html#create-pytest-test))
+1. Tests are build with pytest. You can set your favorite IDE to work with pytest, for pycharm please follow  this [detailed tutorial](https://www.jetbrains.com/help/pycharm/pytest.html#create-pytest-test)
 2. In pycharm you can customise your test configuration so to run all test in one click. 
 
 
@@ -131,5 +131,5 @@ The REST API to the Ticket System app is described below.
     Content-Length: 4
 
     204
-
-
+  
+## Full list of endpoints is not available yet. Please refer to [routes](https://github.com/GMGeor/TicketSystemFlaskJune2022/blob/490ab28da409b5fc106a17b6bb6fe2a8ba116f6d/resources/routes.py#L27) in order to see all available routes.
