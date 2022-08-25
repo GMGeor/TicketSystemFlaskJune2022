@@ -28,7 +28,6 @@ There are 4 user roles:
 5. Install the required non build in libraries using the requiremenst file:
 
     ``python3 -m pip install -r requirements.txt``
-6. Two services are integrated, 
     
 ### Run the app
 
