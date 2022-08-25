@@ -8,7 +8,7 @@ There are 4 user roles:
 2. Manager. Can assign tickets to agents and update tickets priority. Can list all tickets, but only those that are asigned by him to an agent.
 3. Agents. Can update ticket status to pendiong or resolved. Can list all tickets, but only those that are asigned to him by the manager.
 4. Requester. Can register himself to the system. Can create ticket. Can update ticket description if he is the creator. Can list all tickets or just one ticket, but only those that are created by him. Can close the ticket by changing the status to closed, again if he is the creator. 
-    - when requester is created hi/she provides email and prefered language for communication. Those 2 variables are used for external services so when an agent updates the ticket status, the requester will receive notification email with text provided by the agent translated to the prefered language.
+    - on requester creation are provided email and prefered language for communication. Those 2 variables are used by external services. When an agent updates the ticket status, the requester will receive notification email with text provided by the agent translated to the prefered language.
     
     
 ## Install
@@ -31,8 +31,8 @@ There are 4 user roles:
 
 ## Run the tests
 
-1. Tests are build with pytest. You can set your favorite IDE to work with pytest. For pycharm please follow  this [tutorial](https://www.jetbrains.com/help/pycharm/pytest.html#create-pytest-test)
-2. In pycharm you can customise your test configuration so to run all test in one click. 
+Tests are build with pytest. You can set your favorite IDE to work with pytest. For pycharm please follow  this [tutorial](https://www.jetbrains.com/help/pycharm/pytest.html#create-pytest-test)
+In pycharm you can customise your test configuration so to run all test in one click. 
 
 
 # REST API
