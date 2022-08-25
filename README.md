@@ -1,16 +1,29 @@
 # TicketSystemFlaskJune2022 REST API
 
-A demo Flask REST API for my exam. 
+A demo Flask REST API for my exam. It provides endpoints for creation and loging of different types of users, and creation, update, list and deletion of tickets, that are protected acording to the business logic.
 
+## Users
+There are 4 user roles:
+1. Administrator. Can create administrators, managers and agents. Can delete tickets. Can list all tickets.
+2. Manager. Can assign tickets to agents and update tickets priority. Can list all tickets, but only those that are asigned by him to an agent.
+3. Agents. Can update ticket status to pendiong or resolved. Can list all tickets, but only those that are asigned to him by the manager.
+4. Requester. Can register himself to the system. Can create ticket. Can update ticket description if he is the creator. Can list all tickets or just one ticket, but only those that are created by him. Can close the ticket by changing the status to closed, again if he is the creator. 
+    - when requester is created hi/she provides email and prefered language for communication. Those 2 variables are used for external services so when an agent updates the ticket status, the requester will receive notification email with text provided by the agent translated to the prefered language.
+    
+    
 ## Install
-1. You need Python version 3.8 or above instaleld on your computer.
-2. Install the required non build in libraries using the requireemnst file:
-
-    ``python3 -m pip install -r requirements.txt``
-3. Create Postresql database and config it. If you are on windows, please follow this [detailed tutorial](https://www.guru99.com/download-install-postgresql.html) 
-4. If you are on Windows, you will need to set "FLASK_APP" environment variable for the migrations:
+# Prerequisites
+1. You need Python version 3.8 or above instaled on your computer.
+2. You need a database to be created and set. Create Postresql database and config it. If you are on windows, please follow this [detailed tutorial](https://www.guru99.com/download-install-postgresql.html)
+3. If you are on Windows, you will need to set "FLASK_APP" environment variable for the migrations:
 
     ``set FLASK_APP=./main.py``
+    
+4. Two services of external providers are integrated. You need to setup the respective credentials, for more info please refer to the providers documentation: [Sendgrid](https://sendgrid.com) and [Language-translator](https://cloud.ibm.com/catalog/services/language-translator). 
+5. Install the required non build in libraries using the requiremenst file:
+
+    ``python3 -m pip install -r requirements.txt``
+6. Two services are integrated, 
     
 ## Run the app
 
@@ -18,7 +31,7 @@ A demo Flask REST API for my exam.
 
 ## Run the tests
 
-1. Tests are build with pytest. You can set your favorite IDE to work with pytest, for pycharm please follow  this [detailed tutorial](https://www.jetbrains.com/help/pycharm/pytest.html#create-pytest-test)
+1. Tests are build with pytest. You can set your favorite IDE to work with pytest. For pycharm please follow  this [tutorial](https://www.jetbrains.com/help/pycharm/pytest.html#create-pytest-test)
 2. In pycharm you can customise your test configuration so to run all test in one click. 
 
 
