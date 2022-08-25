@@ -3,12 +3,12 @@
 A demo Flask REST API for my exam. 
 
 ## Install
-    1. You need Python version 3.8 or above instaleld on your computer.
-    2. Install the required non build in libraries using the requireemnst file:
-      python3 -m pip install -r requirements.txt
-    3. Create Postresql database and config it. If you are on windows, please follow this detailed tutorial [here](https://www.guru99.com/download-install-postgresql.html) 
-    4. If you are on Windows, you will need to set "FLASK_APP" environment variable for the migrations:
-      set FLASK_APP=./main.py
+1. You need Python version 3.8 or above instaleld on your computer.
+2. Install the required non build in libraries using the requireemnst file:
+  python3 -m pip install -r requirements.txt
+3. Create Postresql database and config it. If you are on windows, please follow this detailed tutorial [here](https://www.guru99.com/download-install-postgresql.html) 
+4. If you are on Windows, you will need to set "FLASK_APP" environment variable for the migrations:
+  set FLASK_APP=./main.py
     
 ## Run the app
 
