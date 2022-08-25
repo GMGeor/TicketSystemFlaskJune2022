@@ -2,7 +2,7 @@
 
 A Flask REST API that provides endpoints for creation and loging of different types of users, and creation, update, list and deletion of tickets, that are protected acording to the business logic.
 
-**PLEASE NOTICE!** *Initialy my idea was to create a chat bot to consume this API. However, the lack of time and mainly the lack of front end knowledge didn't allow me to do it. So why I created this project to cover the exam requirements.  And another one which has basic functionality, but it is deployed and integrated with Watson Assistant chatbot. Please refer to the other project [here](https://github.com/GMGeor/TicketSystemDemo4WatsonAssistantIntegration)*
+**PLEASE NOTICE!** *Initialy my idea was to create a chat bot to consume this API. However, the lack of time and mainly the lack of front end knowledge didn't allow me to do it. So why I created this project to cover the exam requirements.  And another one which has basic functionality, but it is deployed and integrated with Watson Assistant chatbot. Please refer to the other project* <a href="https://github.com/GMGeor/TicketSystemDemo4WatsonAssistantIntegration" target="_blank">here</a>
 
 ## Users
 There are 4 user roles:
@@ -16,12 +16,15 @@ There are 4 user roles:
 ## Install
 ### Prerequisites
 1. You need Python version 3.8 or above instaled on your computer.
-2. You need a database to be created and set. Create Postresql database and config it. If you are on windows, please follow this [detailed tutorial](https://www.guru99.com/download-install-postgresql.html)
+2. You need a database to be created and set. Create Postresql database and config it. If you are on windows, please follow this <a href="https://www.guru99.com/download-install-postgresql.html" target="_blank">detailed tutorial</a>
+
 3. If you are on Windows, you will need to set "FLASK_APP" environment variable for the migrations:
 
     ``set FLASK_APP=./main.py``
     
-4. Two services of external providers are integrated. You need to setup the respective credentials, for more info please refer to the providers documentation: [Sendgrid](https://sendgrid.com) and [Language-translator](https://cloud.ibm.com/catalog/services/language-translator). 
+4. Two services of external providers are integrated. You need to setup the respective credentials, for more info please refer to the providers documentation: 
+<a href="https://sendgrid.com/" target="_blank">Sendgrid</a> and <a href="https://cloud.ibm.com/catalog/services/language-translator" target="_blank">Language-translator</a>
+
 5. Install the required non build in libraries using the requiremenst file:
 
     ``python3 -m pip install -r requirements.txt``
@@ -33,7 +36,8 @@ There are 4 user roles:
 
 ## Run the tests
 
-Tests are build with pytest. You can set your favorite IDE to work with pytest. For pycharm please follow  this [tutorial](https://www.jetbrains.com/help/pycharm/pytest.html#create-pytest-test)
+Tests are build with pytest. You can set your favorite IDE to work with pytest. For pycharm please follow  this <a href="https://www.jetbrains.com/help/pycharm/pytest.html#create-pytest-test" target="_blank">tutorial</a>
+
 In pycharm you can customise your test configuration so to run all test in one click. 
 
 
