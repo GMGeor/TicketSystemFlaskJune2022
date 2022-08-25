@@ -145,4 +145,4 @@ The REST API to the Ticket System app is described below.
 
     204
   
-## Full list of endpoints is not available yet. Please refer to [routes](https://github.com/GMGeor/TicketSystemFlaskJune2022/blob/490ab28da409b5fc106a17b6bb6fe2a8ba116f6d/resources/routes.py#L27) in order to see all available routes.
+## Full list of endpoints is not available yet. Please refer to [routes](https://github.com/GMGeor/TicketSystemFlaskJune2022/blob/490ab28da409b5fc106a17b6bb6fe2a8ba116f6d/resources/routes.py#L27) in order to see all available endpoints.
