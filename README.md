@@ -2,6 +2,8 @@
 
 A Flask REST API that provides endpoints for creation and loging of different types of users, and creation, update, list and deletion of tickets, that are protected acording to the business logic.
 
+**PLEASE NOTICE!** Initialy my idea was to create a chat bot to consume this API. However, the lack of time and mainly the lack of front end knowledge didn't allow me to do it. So why I created this project to cover the exam requirements.  And another one which has basic functionality, it is deployed and integrated with Watson Assistant chatbot. Please refer to the other project [here](https://github.com/GMGeor/TicketSystemDemo4WatsonAssistantIntegration)
+
 ## Users
 There are 4 user roles:
 1. Administrator. Can create administrators, managers and agents. Can delete tickets. Can list all tickets.
