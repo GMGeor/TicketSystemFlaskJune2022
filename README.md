@@ -1,6 +1,6 @@
 # TicketSystemFlaskJune2022 REST API
 
-A demo Flask REST API for my exam. It provides endpoints for creation and loging of different types of users, and creation, update, list and deletion of tickets, that are protected acording to the business logic.
+A Flask REST API that provides endpoints for creation and loging of different types of users, and creation, update, list and deletion of tickets, that are protected acording to the business logic.
 
 ## Users
 There are 4 user roles:
